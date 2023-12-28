@@ -17,6 +17,13 @@
 		9DB93A9A288BD492007D2CE1 /* CakeAnyTime_iOS_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB93A99288BD492007D2CE1 /* CakeAnyTime_iOS_UIKitTests.swift */; };
 		9DB93AA4288BD492007D2CE1 /* CakeAnyTime_iOS_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB93AA3288BD492007D2CE1 /* CakeAnyTime_iOS_UIKitUITests.swift */; };
 		9DB93AA6288BD492007D2CE1 /* CakeAnyTime_iOS_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB93AA5288BD492007D2CE1 /* CakeAnyTime_iOS_UIKitUITestsLaunchTests.swift */; };
+		9DB93ABA288BD69F007D2CE1 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB93AB9288BD69F007D2CE1 /* Auth.storyboard */; };
+		9DB93ABC288BD7C6007D2CE1 /* ViewController+CustomMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB93ABB288BD7C6007D2CE1 /* ViewController+CustomMethods.swift */; };
+		9DB93ABF288BD86C007D2CE1 /* LoginRegisterViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB93ABE288BD86C007D2CE1 /* LoginRegisterViewC.swift */; };
+		9DB93AC1288BD8AA007D2CE1 /* LoginRegisterViewC+CustomMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB93AC0288BD8AA007D2CE1 /* LoginRegisterViewC+CustomMethods.swift */; };
+		9DB93AC4288BDDD8007D2CE1 /* CustomMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB93AC3288BDDD8007D2CE1 /* CustomMethods.swift */; };
+		9DB93AC6288BE101007D2CE1 /* Extension_UI_Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB93AC5288BE101007D2CE1 /* Extension_UI_Components.swift */; };
+		9DB93AC9288BE200007D2CE1 /* AppText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB93AC8288BE200007D2CE1 /* AppText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		9DB93A9F288BD492007D2CE1 /* CakeAnyTime_iOS_UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CakeAnyTime_iOS_UIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB93AA3288BD492007D2CE1 /* CakeAnyTime_iOS_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeAnyTime_iOS_UIKitUITests.swift; sourceTree = "<group>"; };
 		9DB93AA5288BD492007D2CE1 /* CakeAnyTime_iOS_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeAnyTime_iOS_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9DB93AB9288BD69F007D2CE1 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		9DB93ABB288BD7C6007D2CE1 /* ViewController+CustomMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CustomMethods.swift"; sourceTree = "<group>"; };
+		9DB93ABE288BD86C007D2CE1 /* LoginRegisterViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterViewC.swift; sourceTree = "<group>"; };
+		9DB93AC0288BD8AA007D2CE1 /* LoginRegisterViewC+CustomMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginRegisterViewC+CustomMethods.swift"; sourceTree = "<group>"; };
+		9DB93AC3288BDDD8007D2CE1 /* CustomMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMethods.swift; sourceTree = "<group>"; };
+		9DB93AC5288BE101007D2CE1 /* Extension_UI_Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension_UI_Components.swift; sourceTree = "<group>"; };
+		9DB93AC8288BE200007D2CE1 /* AppText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +115,13 @@
 		9DB93A7E288BD490007D2CE1 /* CakeAnyTime_iOS_UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				9DB93A7F288BD490007D2CE1 /* AppDelegate.swift */,
-				9DB93A81288BD490007D2CE1 /* SceneDelegate.swift */,
-				9DB93A83288BD490007D2CE1 /* ViewController.swift */,
-				9DB93A85288BD490007D2CE1 /* Main.storyboard */,
-				9DB93A8B288BD492007D2CE1 /* Assets.xcassets */,
-				9DB93A8D288BD492007D2CE1 /* LaunchScreen.storyboard */,
+				9DB93ACA288BE4D3007D2CE1 /* Utitlies */,
+				9DB93AC2288BDD91007D2CE1 /* HelperClasses */,
+				9DB93AB2288BD4A4007D2CE1 /* SystemFiles */,
+				9DB93AB3288BD4B5007D2CE1 /* Controllers */,
+				9DB93AB5288BD4D9007D2CE1 /* Storyboards */,
+				9DB93AB6288BD4F1007D2CE1 /* Resources */,
 				9DB93A90288BD492007D2CE1 /* Info.plist */,
-				9DB93A88288BD490007D2CE1 /* CakeAnyTime_iOS_UIKit.xcdatamodeld */,
 			);
 			path = CakeAnyTime_iOS_UIKit;
 			sourceTree = "<group>";
@@ -128,6 +141,102 @@
 				9DB93AA5288BD492007D2CE1 /* CakeAnyTime_iOS_UIKitUITestsLaunchTests.swift */,
 			);
 			path = CakeAnyTime_iOS_UIKitUITests;
+			sourceTree = "<group>";
+		};
+		9DB93AB2288BD4A4007D2CE1 /* SystemFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9DB93A7F288BD490007D2CE1 /* AppDelegate.swift */,
+				9DB93A81288BD490007D2CE1 /* SceneDelegate.swift */,
+			);
+			path = SystemFiles;
+			sourceTree = "<group>";
+		};
+		9DB93AB3288BD4B5007D2CE1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DB93AB4288BD4C6007D2CE1 /* ViewControllerScreen */,
+				9DB93ABD288BD832007D2CE1 /* Auth */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9DB93AB4288BD4C6007D2CE1 /* ViewControllerScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9DB93A83288BD490007D2CE1 /* ViewController.swift */,
+				9DB93ABB288BD7C6007D2CE1 /* ViewController+CustomMethods.swift */,
+			);
+			path = ViewControllerScreen;
+			sourceTree = "<group>";
+		};
+		9DB93AB5288BD4D9007D2CE1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9DB93AB9288BD69F007D2CE1 /* Auth.storyboard */,
+				9DB93A85288BD490007D2CE1 /* Main.storyboard */,
+				9DB93A8D288BD492007D2CE1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9DB93AB6288BD4F1007D2CE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DB93AC7288BE1EA007D2CE1 /* AppText */,
+				9DB93AB7288BD4FF007D2CE1 /* Assets */,
+				9DB93AB8288BD50D007D2CE1 /* LocalDB */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9DB93AB7288BD4FF007D2CE1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9DB93A8B288BD492007D2CE1 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9DB93AB8288BD50D007D2CE1 /* LocalDB */ = {
+			isa = PBXGroup;
+			children = (
+				9DB93A88288BD490007D2CE1 /* CakeAnyTime_iOS_UIKit.xcdatamodeld */,
+			);
+			path = LocalDB;
+			sourceTree = "<group>";
+		};
+		9DB93ABD288BD832007D2CE1 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				9DB93ABE288BD86C007D2CE1 /* LoginRegisterViewC.swift */,
+				9DB93AC0288BD8AA007D2CE1 /* LoginRegisterViewC+CustomMethods.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		9DB93AC2288BDD91007D2CE1 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9DB93AC5288BE101007D2CE1 /* Extension_UI_Components.swift */,
+				9DB93AC3288BDDD8007D2CE1 /* CustomMethods.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		9DB93AC7288BE1EA007D2CE1 /* AppText */ = {
+			isa = PBXGroup;
+			children = (
+				9DB93AC8288BE200007D2CE1 /* AppText.swift */,
+			);
+			path = AppText;
+			sourceTree = "<group>";
+		};
+		9DB93ACA288BE4D3007D2CE1 /* Utitlies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utitlies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB93ABA288BD69F007D2CE1 /* Auth.storyboard in Resources */,
 				9DB93A8F288BD492007D2CE1 /* LaunchScreen.storyboard in Resources */,
 				9DB93A8C288BD492007D2CE1 /* Assets.xcassets in Resources */,
 				9DB93A87288BD490007D2CE1 /* Main.storyboard in Resources */,
@@ -262,8 +372,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DB93A8A288BD490007D2CE1 /* CakeAnyTime_iOS_UIKit.xcdatamodeld in Sources */,
+				9DB93ABC288BD7C6007D2CE1 /* ViewController+CustomMethods.swift in Sources */,
+				9DB93AC9288BE200007D2CE1 /* AppText.swift in Sources */,
 				9DB93A84288BD490007D2CE1 /* ViewController.swift in Sources */,
+				9DB93ABF288BD86C007D2CE1 /* LoginRegisterViewC.swift in Sources */,
 				9DB93A80288BD490007D2CE1 /* AppDelegate.swift in Sources */,
+				9DB93AC6288BE101007D2CE1 /* Extension_UI_Components.swift in Sources */,
+				9DB93AC4288BDDD8007D2CE1 /* CustomMethods.swift in Sources */,
+				9DB93AC1288BD8AA007D2CE1 /* LoginRegisterViewC+CustomMethods.swift in Sources */,
 				9DB93A82288BD490007D2CE1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
